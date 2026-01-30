@@ -5,36 +5,44 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #331F19; /* Fundo neutro */
+    background-color: #000000; /* Fundo neutro */
 }
 .container {
     text-align: center;
-    background-color: #CBBBA7;
+    background-color: #000000;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 600px;
-    border: 2px solid #8B7D70;
+    border: 2px solid #00ff00;
 }
 h1 {
-    color: #331F19;
+    color: #15ff00;
 }
 p {
-    color: #331F19;
+    color: #1eff00;
     font-size: 1.1em;
 }
 button {
-    background-color: #60041A;
+    background-color: #000000;
     color: #F4F0EA;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    border: 2px solid rgb(0, 255, 0);
     cursor: pointer;
     font-size: 1em;
     transition: background-color 0.3s ease;
     margin-top: 10px;
 }
 button:hover {
-    background-color: #A34743;
+    background-color: #181717;
+}
+/*Seleciona cada item da minha lista*/
+#listaTarefas li {
+    margin-bottom: 15px; /* Muda o espaçamento de um item da lista para o outro*/
+    font-size: 18px;/* Muda o tamanho dos itens da lista*/
+    color:#00ff00
+
 }
